@@ -2,6 +2,13 @@ using Microsoft.AspNetCore.RateLimiting;
 
 var builder = WebApplication.CreateBuilder(args);
 
+//Authentication
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("authenticated", policy =>
+        policy.RequireAuthenticatedUser());
+});
+
 //Rate limiter
 builder.Services.AddRateLimiter(rateLimiterOptions =>
 {
