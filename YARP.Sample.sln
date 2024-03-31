@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIs", "APIs", "{3591C322-85F6-4AEF-9AFB-F0BAE06BAB04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksAPI", "APIs\BooksAPI\BooksAPI.csproj", "{D36BEADE-046E-4898-A412-69BB07DA9D49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesAPI", "APIs\MoviesAPI\MoviesAPI.csproj", "{B911D2EA-4AB2-4854-9D74-6B47742D24F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YARP.Sample", "YARP.Sample\YARP.Sample.csproj", "{AE046D1D-51E7-43F2-B11C-ACDDC5CEA114}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D36BEADE-046E-4898-A412-69BB07DA9D49} = {3591C322-85F6-4AEF-9AFB-F0BAE06BAB04}
+		{B911D2EA-4AB2-4854-9D74-6B47742D24F2} = {3591C322-85F6-4AEF-9AFB-F0BAE06BAB04}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D36BEADE-046E-4898-A412-69BB07DA9D49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D36BEADE-046E-4898-A412-69BB07DA9D49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D36BEADE-046E-4898-A412-69BB07DA9D49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D36BEADE-046E-4898-A412-69BB07DA9D49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B911D2EA-4AB2-4854-9D74-6B47742D24F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B911D2EA-4AB2-4854-9D74-6B47742D24F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B911D2EA-4AB2-4854-9D74-6B47742D24F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B911D2EA-4AB2-4854-9D74-6B47742D24F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE046D1D-51E7-43F2-B11C-ACDDC5CEA114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE046D1D-51E7-43F2-B11C-ACDDC5CEA114}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE046D1D-51E7-43F2-B11C-ACDDC5CEA114}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE046D1D-51E7-43F2-B11C-ACDDC5CEA114}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
